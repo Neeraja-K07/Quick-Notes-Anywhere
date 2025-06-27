@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    width: 300px;
+    padding: 15px;
+    margin: 0;
+    background-color: #ffffff;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dark-mode {
+    background-color: #1e1e1e;
+    color: #eee;
+  }
+  
+  .logo {
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  #quoteContainer {
+    background: #f0f8ff;
+    border-left: 4px solid #0078D7;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-style: italic;
+    font-size: 13px;
+  }
+  
+  .dark-mode #quoteContainer {
+    background: #333;
+    border-left: 4px solid #888;
+    color: #ccc;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 6px 10px;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0078D7;
+    color: white;
+  }
+  
+  .dark-mode button {
+    background-color: #444;
+    color: #f1f1f1;
+  }
+  
